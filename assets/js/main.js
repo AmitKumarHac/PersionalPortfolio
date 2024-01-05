@@ -100,7 +100,7 @@ var speed = 200;
 
 typewriter = () => {
   // for(let i = 0; i < messageArr.length; i++) {
-  document.querySelector("#jobTitle").innerHTML = messageArr[1].substring(
+  document.querySelector("#jobTitle").innerHTML = messageArr[0].substring(
     0,
     textPosition
   );
